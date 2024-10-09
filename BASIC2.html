@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cloud Kitchen & Food Truck</title>
+    <style>
+        body {
+            background-color: #f3f4f6;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-position: center;
+            color: rgb(248, 241, 241);
+            align-items: center;
+            text-align: center;
+        }
+
+        h1 {
+            color: darkgreen;
+            margin: 0;
+        }
+
+        nav a:hover {
+            background-color: rgb(3, 107, 3);
+        }
+
+       nav{
+        background-color: #047b14;
+        display: flex;
+       }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+        }
+        
+        section {
+            padding: 20px;
+            margin: 80px 20px; /* Add margin to avoid overlap with fixed nav */
+            background-color: #fff;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        img {
+            width: 150px;
+            height: 150px;
+        }
+
+        table {
+            width: 100%;
+            margin: auto;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        th {
+            background-color: darkgreen;
+            color: white;
+        }
+
+        form {
+            font-style: italic;
+            font-size: small;
+        }
+
+                .img1 {
+            display: block;
+            width: 100%;
+            height: 480px;
+            border: 4px solid black;
+            margin: 0 auto;
+            object-fit: cover;
+        }
+
+
+        .gif {
+           display: block;
+           margin: auto;
+        }
+
+        .img2{
+            width: 25%;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <strong><h1>Cloud Kitchen & Food Truck Services</h1></strong> <br>
+    <img src="https://i.ibb.co/qYWWBBW/pikaso-text-to-image-Candid-image-photography-natural-textures-highly-r-2.jpg" class="img1">
+</header>
+<img src="https://c.tenor.com/IFqC_LNcqMwAAAAC/tenor.gif" class="gif" >
+<nav>
+    <a href="#foodTruck">Our Food Truck</a>
+    <a href="#kitchens">Cloud Kitchens</a>
+    <a href="#menu">Menu</a>
+    <a href="#order">Order Now</a>
+    <a href="#outlets">Outlets</a>
+    <a href="#contact">Contact Us</a>
+</nav>
+<!-- Food Truck Section -->
+<section id="foodTruck">
+    <h1>About Our Food Truck</h1>
+    <p>Our food truck is a moving kitchen that brings fresh and delicious meals right to your doorstep. We offer a variety of cuisines, from fast food to gourmet options, all made with fresh ingredients!</p>
+    <img src="https://img.freepik.com/premium-vector/street-food-truck-silhouette-vector-illustration-isolated-white-background_954807-14353.jpg" alt="Food Truck Image" class="img2">
+</section>
+
+<!-- Cloud Kitchen Section -->
+<section id="kitchens">
+    <h1>Our Cloud Kitchens</h1>
+    <p>Our cloud kitchens are spread across multiple locations to provide quick and efficient delivery. With no dine-in facilities, we focus purely on food preparation and delivery to ensure the highest quality service.</p>
+    <img src="https://hadalakitchenequipment.com/wp-content/uploads/2024/01/Cloud-Kitchen.webp" alt="Cloud Kitchen Image" class="img2">
+</section>
+
+<!-- Menu Section -->
+<section id="menu">
+    <h1>Our Menu</h1>
+    <table>
+        <tr>
+            <th>Item</th>
+            <th>Price</th>
+            <th>Image</th>
+        </tr>
+        <tr>
+            <td>Grilled Sandwich</td>
+            <td>₹120</td>
+            <td><img src="https://www.vegrecipesofindia.com/wp-content/uploads/2014/01/grilled-sandwich-4.jpg" alt="Grilled Sandwich"></td>
+        </tr>
+        <tr>
+            <td>Chicken Biryani</td>
+            <td>₹250</td>
+            <td><img src="https://img-global.cpcdn.com/recipes/991bc444a26af47e/400x400cq70/photo.jpg" alt="Chicken Biryani"></td>
+        </tr>
+        <tr>
+            <td>Paneer Butter Masala</td>
+            <td>₹180</td>
+            <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRfuxUNFK7RsIrhCQi1AE-xNBcSkTci5m75A&s" alt="Paneer Butter Masala"></td>
+        </tr>
+        <tr>
+            <td>Blue Lagoon Mocktail</td>
+            <td>₹70</td>
+            <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHXPhx7oVmbdb6guGRIA2GcxTETlE5Q0di3w&s" alt="Blue Lagoon Mocktail"></td>
+        </tr>
+        <tr>
+            <td>Chocolate Cake</td>
+            <td>₹350</td>
+            <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2_PBJ5j2YqpQwfDt08pgyMGhp0mSgBehyPg&s" alt="Chocolate Cake"></td>
+        </tr>
+    </table>
+</section>
+
+<!-- Order Now Section -->
+<section id="order">
+    <h1>Order Now</h1>
+    <p>Order your favorite meal from our food truck or cloud kitchen today! Quick delivery and fresh, hot meals delivered to your doorstep!</p>
+    <img src="https://media.tenor.com/FUR8taaI51IAAAAi/order-now.gif" class="gif"><br>
+    <form>
+        <label for="fname">Full name :</label>
+        <input type="text" id="fname" name="fname" placeholder="Enter your full name" required><br><br>
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="Gender" value="Male" required>
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="Gender" value="Female" required>
+        <label for="female">Female</label><br><br>
+        <label for="email">E-mail:</label>
+        <input type="text" id="email" name="email" placeholder="Enter your e-mail" required><br><br>
+        <label for="mealtype">Meal type :</label>
+        <select id="mealtype" name="mealtype">
+            <option value="Breakfast">Breakfast</option>
+            <option value="Lunch">Lunch</option>
+            <option value="Dinner">Dinner</option>
+        </select><br><br>
+        <label for="favoriteMeal">Choose your favorite:</label>
+        <select id="favoriteMeal" name="favoriteMeal" required>
+            <option value="" disabled selected>Select Meal</option>
+            <option value="Pizza">Pizza</option>
+            <option value="Burger">Burger</option>
+            <option value="Pasta">Pasta</option>
+        </select><br><br>
+        <label for="photo">Customer's photo with food:</label>
+        <input type="file"><br><br>
+        <label for="feedback">Enter Your feedback here:</label><br><br>
+        <textarea id="feedback" name="feedback" placeholder="Enter your message here" rows="10" cols="50"></textarea><br><br>
+        <input type="submit" value="submit">
+        <input type="reset" value="Reset">
+    </form>
+</section>
+<!-- Outlets Section -->
+<section id="outlets">
+    <h1>Our Outlets</h1>
+    <p>We have several outlets to serve you better! Check out our locations below:</p>
+    
+    <h2>Food Truck Location 1</h2>
+    <p><strong>Address:</strong> 456 Truck Avenue, Foodie Town, Country</p>
+    <p><strong>Contact:</strong> +91 98765 43210</p>
+    <p><strong>Hours:</strong> 10:00 AM - 8:00 PM</p>
+
+    <h2>Cloud Kitchen Location 1</h2>
+    <p><strong>Address:</strong> 789 Kitchen Road, Culinary City, Country</p>
+    <p><strong>Contact:</strong> +91 87654 32109</p>
+    <p><strong>Hours:</strong> 9:00 AM - 11:00 PM</p>
+
+    <h2>Food Truck Location 2</h2>
+    <p><strong>Address:</strong> 321 Eatery Lane, Snack City, Country</p>
+    <p><strong>Contact:</strong> +91 76543 21098</p>
+    <p><strong>Hours:</strong> 12:00 PM - 10:00 PM</p>
+</section>
+<!-- Contact Us Section -->
+<section id="contact">
+    <h1>Contact Us</h1>
+    <p>If you have any questions or need assistance, feel free to reach out to us!</p>
+    <p><strong>Location Address:</strong> 123 Food Street, Gourmet City, Country</p>
+    <p><strong>Opening Hours:</strong></p>
+    <ul>
+        <li>Monday - Friday: 9:00 AM - 10:00 PM</li>
+        <li>Saturday - Sunday: 10:00 AM - 11:00 PM</li>
+    </ul>
+    <p><strong>Email:</strong> icloudkitchen@gmail.com</p>
+    <p><strong>Phone:</strong> +91 12345 67890</p>
+    <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19850.167763685317!2d76.66341902657282!3d8.689535067674075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8ad42e2551e71%3A0x6e98e0920fc5fdd8!2sMalampuzha%20Dam!5e0!3m2!1sen!2sin!4v1692287786616!5m2!1sen!2sin" 
+        allowfullscreen="" loading="lazy"></iframe>
+</section>
+
+</body>
+</html>
